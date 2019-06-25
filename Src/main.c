@@ -128,6 +128,8 @@ int main(void)
 			dutyCycle=0;
 		}
 		HAL_Delay(1000);
+	//https://www.youtube.com/watch?v=vDvbO_BAYvc
+	//https://www.youtube.com/watch?v=KRhctlCOBOg&t=464s
   }
   /* USER CODE END 3 */
 }
