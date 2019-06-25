@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp --branchpatch=sdcomp-29491-629360
+"stcubegenerated\startup_stm32l476xx.o"
+"stcubegenerated\main.o"
+"stcubegenerated\stm32l4xx_it.o"
+"stcubegenerated\stm32l4xx_hal_msp.o"
+"stcubegenerated\stm32l4xx_hal_tim.o"
+"stcubegenerated\stm32l4xx_hal_tim_ex.o"
+"stcubegenerated\stm32l4xx_hal.o"
+"stcubegenerated\stm32l4xx_hal_i2c.o"
+"stcubegenerated\stm32l4xx_hal_i2c_ex.o"
+"stcubegenerated\stm32l4xx_hal_rcc.o"
+"stcubegenerated\stm32l4xx_hal_rcc_ex.o"
+"stcubegenerated\stm32l4xx_hal_flash.o"
+"stcubegenerated\stm32l4xx_hal_flash_ex.o"
+"stcubegenerated\stm32l4xx_hal_flash_ramfunc.o"
+"stcubegenerated\stm32l4xx_hal_gpio.o"
+"stcubegenerated\stm32l4xx_hal_dma.o"
+"stcubegenerated\stm32l4xx_hal_dma_ex.o"
+"stcubegenerated\stm32l4xx_hal_pwr.o"
+"stcubegenerated\stm32l4xx_hal_pwr_ex.o"
+"stcubegenerated\stm32l4xx_hal_cortex.o"
+"stcubegenerated\system_stm32l4xx.o"
+--library_type=microlib --strict --scatter "STCubeGenerated\STCubeGenerated.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STCubeGenerated.map" -o STCubeGenerated\STCubeGenerated.axf
